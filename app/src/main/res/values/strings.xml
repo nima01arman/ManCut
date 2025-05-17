@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ManCut</string>
+    <string name="navigation_drawer_open">باز کردن منوی کشویی</string>
+    <string name="navigation_drawer_close">بستن منوی کشویی</string>
+    <string name="nav_header_title">Design and development:</string>
+    <string name="nav_header_subtitle">NimaArman_MoeinAsadi_AmirSheibani</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">معرفی به دوستان</string>
+
+    <string name="menu_home">پروفایل کاربر</string>
+    <string name="menu_gallery">نوبت دهی</string>
+    <string name="menu_slideshow">مدیریت نوبت</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_about">درباره ما</string>
+    <string name="menu_service">نرخ نامه</string>
+    <string name="menu_price">خدمات</string>
+</resources>

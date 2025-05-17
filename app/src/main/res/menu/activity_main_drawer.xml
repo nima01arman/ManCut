@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/profile_image_zoom_1347_svgrepo_com"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_gallery2"
+            android:icon="@drawable/appointment_new_svgrepo_com"
+            android:title="@string/menu_gallery" />
+
+
+<!--        <item-->
+<!--            android:id="@+id/nav_slideshow2"-->
+<!--            android:icon="@drawable/list_svgrepo_com"-->
+<!--            android:title="@string/menu_slideshow" />-->
+        <item
+            android:id="@+id/nav_slideshow2"
+            android:icon="@drawable/list_svgrepo_com"
+            android:title="@string/menu_slideshow" />
+
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/price_tag_svgrepo_com"
+            android:title="@string/menu_service" />
+
+        <item
+            android:id="@+id/nav_prices"
+            android:icon="@drawable/user_check_svgrepo_com"
+            android:title="@string/menu_price" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/appointment_new_svgrepo_com"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/list_svgrepo_com"
+            android:title="@string/menu_slideshow" />
+
+        <item
+            android:id="@+id/nav_service"
+            android:icon="@drawable/price_tag_svgrepo_com"
+            android:title="@string/menu_service" />
+        <item
+            android:id="@+id/nav_price"
+            android:icon="@drawable/user_check_svgrepo_com"
+            android:title="@string/menu_price" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about_faq_help_question_svgrepo_com"
+            android:title="@string/menu_about" />
+
+
+
+
+
+    </group>
+</menu>

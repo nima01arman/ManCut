@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- آیتم ۱ -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp"
+            android:background="#EFEFEF">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="130dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/haircut" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="اصلاح مو یکی از پایه‌ای‌ترین خدمات هر آرایشگاه است که با استفاده از قیچی و ماشین اصلاح، مدل موی دلخواه مشتری را پیاده‌سازی می‌کند. این خدمت بسته به فرم صورت و سلیقه شخصی طراحی می‌شود و تأثیر زیادی در ظاهر کلی فرد دارد."
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- همین ساختار را ۹ بار دیگر با تغییر عکس و متن تکرار می‌کنیم -->
+
+        <!-- آیتم ۲ -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp"
+            android:background="#EFEFEF">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="110dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/haircolor" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="رنگ کردن مو به منظور تغییر ظاهر و ایجاد تنوع انجام می‌شود. این خدمت شامل انتخاب رنگ مناسب، ترکیب مواد و اجرای دقیق بر روی مو است. رنگ مو می‌تواند حس جوانی، تازگی یا حتی جسارت را به چهره منتقل کند.
+
+"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- آیتم ۳ -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp"
+            android:background="#EFEFEF">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="128dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/kratin" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="کراتینه روشی تخصصی برای صاف کردن و ترمیم موهای آسیب‌دیده است. با این تکنیک، موها نرم‌تر، براق‌تر و بدون وز می‌شوند. این خدمت برای افرادی که موهای خشک یا مجعد دارند بسیار مفید است و تا چند ماه اثر ماندگاری دارد.
+
+"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- آیتم ۴ -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp"
+            android:background="#EFEFEF">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="128dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/haircut" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="اصلاح ریش به معنای فرم دادن و مرتب‌سازی موهای صورت است که با ابزار حرفه‌ای انجام می‌شود. این کار به بهبود چهره و ظاهر مردان کمک می‌کند و تأثیر زیادی بر آراستگی دارد. فرم‌های مختلفی از خط ریش و سبیل بسته به سلیقه قابل پیاده‌سازی است.
+
+"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- آیتم ۵ -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp"
+            android:background="#EFEFEF">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="130dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/face" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ماساژ صورت با تحریک عضلات و بهبود گردش خون باعث شادابی و جوان‌سازی پوست می‌شود. این خدمت همچنین به کاهش استرس و رفع خستگی چهره کمک می‌کند. استفاده از روغن‌ها و تکنیک‌های خاص بخشی از این فرآیند است.
+
+"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp"
+            android:background="#EFEFEF">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="109dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/facial" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="فیشیال یک پاک‌سازی عمیق پوست صورت است که شامل لایه‌برداری، بخور، ماسک و مرطوب‌کننده می‌شود. این خدمت به شفافیت، کاهش جوش و بازسازی پوست کمک کرده و در بهبود سلامت کلی صورت تأثیرگذار است.
+
+"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp"
+            android:background="#EFEFEF">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="108dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hairwash" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="شست‌وشوی حرفه‌ای مو با شامپو و ماساژ پوست سر نه تنها تمیزی موها را تضمین می‌کند، بلکه احساس آرامش و لطافت را نیز به همراه دارد. این خدمت معمولاً پیش از اصلاح یا مدل‌دهی انجام می‌شود.
+
+"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp"
+            android:background="#EFEFEF">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="109dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hairstyle" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="در مدلینگ مو، آرایشگر با استفاده از سشوار، اتوی مو، ژل و سایر ابزارها، مدل دلخواه مشتری را ایجاد می‌کند. این خدمت بیشتر برای مناسبت‌های خاص یا جلسات رسمی کاربرد دارد و ظاهری جذاب و خاص به فرد می‌بخشد.
+
+"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp"
+            android:background="#EFEFEF">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="108dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/head" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ماساژ ناحیه سر و گردن با کاهش تنش و استرس، آرامش را برای فرد به همراه دارد. این خدمت همچنین به بهبود گردش خون در نواحی فوقانی بدن کمک کرده و حس سبکی و رهایی ایجاد می‌کند."
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp"
+            android:background="#EFEFEF">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="110dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/eye" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="این خدمات شامل مرتب‌سازی ابرو، اصلاح صورت با نخ یا وکس و شکل‌دهی به اجزای چهره است. ابروها نقش بسیار مهمی در فرم صورت دارند و این خدمت باعث زیبایی و آراستگی بیشتر افراد می‌شود."
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- آیتم ۶ تا ۱۰ هم دقیقاً به همین ترتیب هستند -->
+        <!-- فقط مقدار تصویر، عنوان و قیمت را تغییر بده -->
+
+    </LinearLayout>
+</ScrollView>

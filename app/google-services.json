@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "500092527205",
+    "project_id": "arman-92d4d",
+    "storage_bucket": "arman-92d4d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500092527205:android:58300cffdbae67123b9c8c",
+        "android_client_info": {
+          "package_name": "com.abdulrauf.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEdV-9H1e5ionDFKX4ZCqNVZaWiYKnI5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

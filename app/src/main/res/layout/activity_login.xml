@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="barber image"
+            app:srcCompat="@drawable/hairdresser_barber_shop_hair_salon_hair_studio_svgrepo_com" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="به ManCut خوش اومدید!\nلطفاً برای رزرو نوبت وارد حساب کاربری شوید."
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="#070707"
+            android:layout_marginBottom="24dp" />
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:hint="ایمیل"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:hint="رمز عبور"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="right|center_vertical"
+            android:textDirection="rtl"
+            android:layoutDirection="rtl" />
+
+        <RadioGroup
+            android:id="@+id/roleRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:gravity="right|center_vertical"
+            android:textDirection="rtl"
+            android:layoutDirection="rtl">
+
+            <RadioButton
+                android:id="@+id/radioBarber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="آرایشگر" />
+
+            <RadioButton
+                android:id="@+id/radioCustomer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="مشتری" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/loginButton"
+            android:text="ورود"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/registerLink"
+            android:text="حساب نداری؟ ثبت‌نام کن!"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

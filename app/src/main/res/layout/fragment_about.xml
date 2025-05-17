@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    tools:context=".AboutFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- عنوان -->
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="بسمه تعالی"
+            android:textColor="#222222"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+
+        <!-- متن معرفی -->
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="156dp"
+            android:layout_marginBottom="24dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/hairdresser_barber_shop_hair_salon_hair_studio_svgrepo_com" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:layout_marginBottom="12dp"
+            android:lineSpacingExtra="4dp"
+            android:text="اپلیکیشن ManCut با هدف مدیریت نوبت برای آرایشگران و مشتریان، به عنوان پروژه‌ی درس آز مهندسی نرم‌افزار تحت نظر جناب استاد حجت بیک‌نژاد طراحی و توسعه یافته است."
+            android:textColor="#444"
+            android:textSize="15sp" />
+
+        <!-- اطلاعات فنی -->
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginBottom="12dp"
+            android:lineSpacingExtra="4dp"
+            android:text="این اپ با Android Studio و زبان Java توسعه یافته و برای احراز هویت، رزرو و نوتیفیکیشن از Firebase بهره می‌برد."
+            android:textColor="#444"
+            android:textSize="15sp" />
+
+        <!-- پشتیبانی و قابلیت‌ها -->
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_marginBottom="12dp"
+            android:lineSpacingExtra="4dp"
+            android:text="برنامه از پلتفرم Tawk.to برای پشتیبانی آنلاین استفاده می‌کند، و دارای حالت شب و امکان معرفی به دوستان نیز می‌باشد."
+            android:textColor="#444"
+            android:textSize="15sp" />
+
+        <!-- نقش‌ها -->
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_marginBottom="24dp"
+            android:lineSpacingExtra="4dp"
+            android:text="این اپلیکیشن دو مود جداگانه برای آرایشگر و مشتری دارد. پس از ورود، هر کاربر منوی اختصاصی مربوط به نقش خود را می‌بیند."
+            android:textColor="#444"
+            android:textSize="15sp" />
+
+        <!-- تصویر اصلی -->
+
+        <!-- لوگوی دانشگاه -->
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/uthlogo"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="12dp" />
+
+        <!-- فضای رزرو برای متن احتمالی دیگر -->
+        <TextView
+            android:id="@+id/text_slideshow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:visibility="gone" />
+
+    </LinearLayout>
+</ScrollView>
