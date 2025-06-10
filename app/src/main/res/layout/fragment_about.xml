@@ -39,7 +39,7 @@
             android:layout_height="98dp"
             android:layout_marginBottom="12dp"
             android:lineSpacingExtra="4dp"
-            android:text="اپلیکیشن ManCut با هدف مدیریت نوبت برای آرایشگران و مشتریان، به عنوان پروژه‌ی درس آز مهندسی نرم‌افزار تحت نظر جناب استاد حجت بیک‌نژاد طراحی و توسعه یافته است."
+            android:text="اپلیکیشن ManCut با هدف مدیریت نوبت برای آرایشگران و مشتریان، به عنوان پروژه‌ی درس توسعه نرم افزار تحت نظر جناب استاد مصطفی بامداد طراحی و توسعه یافته است."
             android:textColor="#444"
             android:textSize="15sp" />
 
