@@ -84,3 +84,4 @@ public class RegisterActivity extends AppCompatActivity {
                         Toast.makeText(this, "خطا در ثبت‌نام: " + e.getMessage(), Toast.LENGTH_SHORT).show());
     }
 }
+//تغییرات برای ثیت نام کاربر انجام شد
